@@ -69,5 +69,5 @@ GOTO:EOF
     )
 
 	call:logInfo "GYP Defines: %GYP_DEFINES%"
-	setx GYP_DEFINES "%GYP_DEFINES%"
+	setx /M GYP_DEFINES "-Dtravis_defines=%GYP_DEFINES%"
 GOTO:EOF
