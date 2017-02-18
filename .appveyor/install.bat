@@ -6,6 +6,8 @@ SET QT_VERSION=5_6_2
 
 cd %BUILD_DIR%
 
+call "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\vcvarsall.bat" x86
+
 call:getDependencies
 call:setupGYP
 
