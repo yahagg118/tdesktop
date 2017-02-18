@@ -17,10 +17,6 @@ environment:
 install:
   - ./.appveyor/install.bat
 
-before_build:
-  - echo Defines
-  - echo %GYP_DEFINES%
-
 build:
   project: Telegram.sln
 
