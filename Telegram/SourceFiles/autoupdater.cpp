@@ -38,7 +38,7 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 #include "pspecific.h"
 
 #ifndef TDESKTOP_DISABLE_AUTOUPDATE
-
+s<dfasfdf
 #ifdef Q_OS_WIN
 typedef DWORD VerInt;
 typedef WCHAR VerChar;
