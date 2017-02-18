@@ -9,7 +9,7 @@ cd %BUILD_DIR%
 
 call "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\vcvarsall.bat" x86
 
-::call:configureBuild
+call:configureBuild
 call:getDependencies
 call:setupGYP
 
@@ -69,5 +69,5 @@ GOTO:EOF
     )
 
 	call:logInfo "GYP Defines: %GYP_DEFINES%"
-	::setx GYP_DEFINES "%GYP_DEFINES%"
+	setx GYP_DEFINES "%GYP_DEFINES%"
 GOTO:EOF
